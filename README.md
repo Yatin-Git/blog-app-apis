@@ -50,6 +50,6 @@ Contributions to the blogging application project are welcome! If you find any i
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/Yatin-Git
+This project is licensed under the [MIT License](https://github.com/Yatin-Git/blog-app-apis/blob/main/LICENSE).
 
 
