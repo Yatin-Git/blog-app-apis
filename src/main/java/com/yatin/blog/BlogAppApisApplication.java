@@ -34,7 +34,6 @@ public class BlogAppApisApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		System.out.println(this.passwordEncoder.encode("xyz"));
 
 		try {
 
@@ -55,7 +54,7 @@ public class BlogAppApisApplication implements CommandLineRunner {
 			});
 
 		} catch (Exception e) {
-			e.printStackTrace();
+			e.getLocalizedMessage();
 		}
 
 	}
