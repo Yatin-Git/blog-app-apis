@@ -65,7 +65,7 @@ public class AuthController {
 			this.authenticationManager.authenticate(authenticationToken);
 
 		} catch (BadCredentialsException e) {
-			System.out.println("Invalid Detials !!");
+			System.out.println("Invalid Details !!");
 			throw new ApiException("Invalid username or password !!");
 		}
 
@@ -79,7 +79,7 @@ public class AuthController {
 		return new ResponseEntity<UserDto>(registeredUser, HttpStatus.CREATED);
 	}
 
-	// get loggedin user data
+	// get logged in user data
 	@Autowired
 	private UserRepo userRepo;
 	@Autowired
